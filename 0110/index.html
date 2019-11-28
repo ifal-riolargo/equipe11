@@ -1,90 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>1011-AW</title>
     <style>
-            h1 {
-                color: #000
-            }
-            
-            table th, td {
-                border: 1px solid #111;
-                padding: 10px;
-            }
-            
-            .navbar ul {
-                font-family: 'Alata', sans-serif;
-                list-style-type: none;
-                margin: 0;
-                padding: 1000;
-                overflow: hidden;
-                background-color: #444;
-            }
-            
-            .navbar li.link {
-                float: left;
-            }
-            rodape {
+        h1 {
+            color: #ff0000
+        }
+
+        table th,
+        td {
+            border: 1px solid #111;
+            padding: 10px;
+        }
+
+        .navbar ul {
+            font-family: 'Alata', sans-serif;
+            list-style-type: none;
+            margin: 0;
+            padding: 1000;
+            overflow: hidden;
+            background-color: #444;
+        }
+
+        .navbar li.link {
+            float: left;
+        }
+
+        .rodape {
             background-color: #1c1c1c;
-            color:#fff;
+            color: #fff;
             display: flex;
             justify-content: space-around;
         }
-        
+
         .rodape dl * {
             margin-bottom: 4px;
         }
-        
+
         .rodape ul {
             list-style-type: none;
         }
-        
+
         .rodape ul li a {
             text-decoration: none;
             color: #fff;
-        
+
         }
-        
+
         .rodape ul li a:hover {
             color: #fff;
         }
-        
+
         .rodape ul li {
             margin-bottom: 4px;
-        } 
+        }
+
         body {
             background: #dfdfdf;
             font-family: 'Raleway', sans-serif;
         }
-        
+
         hr {
-            height:2px;
-            border-width:0;
+            height: 2px;
+            border-width: 0;
             color: #444;
             background-color: #444;
             width: 80%;
             text-align: left;
             margin-left: 0;
         }
-        
-        
+
+
         header {
             background: #fff;
             padding-top: 10px;
         }
-        
+
         .rodape h1 {
             color: #444
         }
-        
-        table th, td {
+
+        table th,
+        td {
             border: 1px solid #111;
             padding: 10px;
         }
-        
+
         .navbar ul {
             font-family: 'Alata', sans-serif;
             list-style-type: none;
@@ -93,11 +98,11 @@
             overflow: hidden;
             background-color: #eb8305;
         }
-        
+
         .navbar li.link {
             float: left;
         }
-        
+
         .navbar .link a {
             font-size: 17px;
             display: block;
@@ -106,43 +111,44 @@
             padding: 14px;
             text-decoration: none;
         }
-        
+
         /* Change the link color to #111 (black) on hover */
         .navbar .link a:hover {
             background-color: #111;
         }
-        
+
         .navbar .search form {
             margin-top: 8px;
             margin-right: 3px;
             float: right;
         }
+
         .navbar .search form input {
             padding: 6px;
             font-size: 17px;
             border: none;
         }
-        
+
         .navbar .search form button {
             padding: 6px;
             border: none;
         }
-        
+
         main {
             margin: 30px auto;
             width: 1080px;
             background: #f5f5f5;
             box-shadow: 3px 3px 16px 0px #aaa;
             padding: 30px;
-            
+
             clear: both;
         }
-        
-        
-        
+
+
+
         .main-content {
             background-color: #fff;
-            color:#111;
+            color: #111;
             display: flex;
             justify-content: space-around;
             padding: 10px;
@@ -150,166 +156,211 @@
             margin: auto;
             word-wrap: break-word;
         }
-        
+
         .main-content .rpg-description {
             width: 80%;
         }
-        
+
         .main-content .rpg-description p {
             text-align: justify;
             text-indent: 3em;
             word-break: break-all;
         }
-        
+
         .main-content img {
             border-radius: 100%;
         }
-        
+
         .mian-content .text-media hr {
             width: 10px;
         }
-        
+
         .center-text {
             text-align: center;
         }
-        
+
         .main-content div.form-in-article {
             padding-left: 10px;
             margin-left: 10px;
             border-left: 1px solid #aaa;
         }
-        
+
         .main-content div.form-in-article input {
             margin-bottom: 10px;
             padding: 15px;
         }
-        
+
         .main-content div.form-in-article button {
             padding: 15px;
         }
-        
-        .super-logo {
-            font-family: 'Press Start 2P', cursive;
-            font-size: 4em;
-            padding: 50px;
-            font-weight: 900;
+
+        .corpo {
+            width: 960px;
+            margin: auto;
         }
-        
-        .super-logo *{
-            display: inline;
+
+        .conteudo {
+            display: table;
         }
+
+        .imagem {
+            display: table-cell;
+            float: right;
+            margin-left: 90px;
+        }
+
+        .texto {
+            display: table-cell;
+            float: left;
+            width: 300px;
+
+        }
+
+        .tabela {
+            display: table-cell;
+            float: right;
+            margin-left: 90px;
+            width: 400px;
+            margin-top: -20px;
+
+        }
+
         .rodape {
             background-color: #eb8305;
-            color:#fff;
+            color: #fff;
             display: flex;
             justify-content: space-around;
         }
-        
+
         .rodape dl * {
             margin-bottom: 4px;
         }
-        
+
         .rodape ul {
             list-style-type: none;
         }
-        
+
         .rodape ul li a {
             text-decoration: none;
             color: #fff;
-            
+
         }
-        
+
         .rodape ul li a:hover {
             color: #000;
         }
-        
+
         .rodape ul li {
             margin-bottom: 4px;
         }
-        </style>
+    </style>
 </head>
- 
+
 <body>
 
-        <nav class="navbar">
-            <ul>
-                <li class="link"><a href="index.html">Home</a></li>
-                <li class="link"><a href="login.html">Login</a></li>
-                <li class="link"><a href="Cadastro.html">Cadastro</a></li>
-                <li class="link"><a href="Curso.html">Curso</a></li>
-                <li class="link"><a href="oque.html">Sobre</a></li>
+    <nav class="navbar">
+        <ul>
+            <li class="link"><a href="index.html">Home</a></li>
+            <li class="link"><a href="login.html">Login</a></li>
+            <li class="link"><a href="Cadastro.html">Cadastro</a></li>
+            <li class="link"><a href="Curso.html">Curso</a></li>
+            <li class="link"><a href="oque.html">Sobre</a></li>
 
-                <li class="search">
-                    <form>
-                        <input id="busca" type="search" name="search" placeholder="Ex.: Curso">
-                        <button type="submit">Buscar</button>
-                    </form>
+            <li class="search">
+                <form>
+                    <input id="busca" type="search" name="search" placeholder="Ex.: Curso">
+                    <button type="submit">Buscar</button>
+                </form>
 
-                </li>
-            </ul>
-        </nav>
-        <br>
-        <fieldset>
-    <div style='text-align:center'>
-        <h1>1011-AW</h1>
-    </div>
-    <h2>O que é a 1011-AW?</h2>
-    <p>Uma ferramenta de treinamento para usuários desenvolverem habilidades em Apache Wicket.</p>
-
-    <h2>O que o nosso treinamento oferece?</h2>
-    <p>Ensinar a utilizar a ferramenta de Framework Apache Wicket para usuários à distância.</p>
-
-    <h2>Qual nível do curso?</h2>
-    <il>
-        <li>Básico</li>
-        <li>Intermediário</li>
-        <li>Avançado</li>
-    </il>
+            </li>
+        </ul>
+    </nav>
     <br>
-    <table border="1">
-        <tr>
-            <th>Empresas Parceiras</th>
-        </tr>
-        <tr>
-            <td>Curso em Vídeo</td>
-            
-        </tr>
-        <tr>
-            <td>CCAA</td>
-        </tr>
-        <tr>
-            <td>Caelum</td>
-        </tr>
-        <tr>
-            <td>Nubank</td>
-        </tr>
-        
-    </table>
+    <fieldset>
+        <section class="corpo">
+            <div style='text-align:center'>
+                <h1>
+                    <font size="12" face="arial black">
+                        1011-AW
+                    </font>
+                </h1>
+            </div>
+            <div class="conteudo">
+                <div class="imagem">
+                    <img src="C:\Users\guilh\OneDrive\Área de Trabalho\HTML\AW.png" width=”20%” height=”40%” alt="AW" />
+                </div>
+                <div class="texto">
+                    <h2>O que é a 1011-AW?</h2>
+                    <p>Uma ferramenta de treinamento para usuários desenvolverem habilidades em Apache Wicket.</p>
+
+                    <h2>O que o nosso treinamento oferece?</h2>
+                    <p>Ensinar a utilizar a ferramenta de Framework Apache Wicket para usuários à distância.</p>
+                </div>
+            </div>
+            <div class="tabela">
+                <table border="1">
+
+                    <tr>
+                        <th>Empresas Parceiras</th>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.cursoemvideo.com/sucesso/" target="blank">Curso em Vídeo</a></td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ccaa.com.br/" target="blank">CCAA</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.caelum.com.br/" target="blank">Caelum</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://nubank.com.br/" target="blank">Nubank</a></td>
+                    </tr>
+
+                </table>
+            </div>
+            <h2>Qual nível do curso?</h2>
+            <il>
+                <li>Básico</li>
+                <li>Intermediário</li>
+                <li>Avançado</li>
+            </il>
+            <br>
+            <br>
+            <h2>Novos Conteúdos</h2>
+            <div style='text-align:left'>
+                <il>
+                    <li><a href="https://www.ibm.com/developerworks/br/library/os-ag-wicket/index.html"
+                            target="blank">Desenvolva um
+                            Aplicativo da Web Simples com Apache Wicket</a></li>
+                    <li><a href="https://www.devmedia.com.br/introducao-ao-spring-framework/26212" target="blank">Spring
+                            Framework</a>
+                    </li>
+                    <li><a href="https://imasters.com.br/back-end/tres-tecnicas-de-ciclo-de-vida-dos-beans-no-spring"
+                            target="blank">SpringBeans</a>
+                    </li>
+                </il>
+            </div>
+            <br>
+
+        </section>
+    </fieldset>
     <br>
-    <h2>Novos Conteúdos</h2>
-    <div style='text-align:left'>
-        <il>
-                <li><a href="https://www.ibm.com/developerworks/br/library/os-ag-wicket/index.html">Desenvolva um Aplicativo da Web Simples com Apache Wicket</a></li>
-            <li><a href="https://www.devmedia.com.br/introducao-ao-spring-framework/26212">Spring Framework</a></li>
-            <li><a href="https://imasters.com.br/back-end/tres-tecnicas-de-ciclo-de-vida-dos-beans-no-spring">SpringBeans</a></li>
-        </il>
-    </div>
-<br>
-        </fieldset>
-        <br>
     <footer class="rodape">
-            
-            <article>
-                <ul>
-                    <li><a href="#">Contato</a></li>
-                    <li><a href="localização.html">Localização</a></li>
-                    <li><a href="colaboradores.html">Colaboradores</a></li>
-                    <li><a href="direitos.html">Direitos reservados</a></li>
-                </ul>
-            </article>
-            <article>
-                <img src="/home/aluno/Imagens/1j+ojl1FOMkX9WypfBe43D6kiPCEpBZPnx...IwXs1M3EMoAJtlScpgfVs9...8+" alt="logoTipo">
-            </article>
-            </footer>
+
+        <article>
+            <ul>
+                <li><a href="#">Contato</a></li>
+                <li><a href="localização.html">Localização</a></li>
+                <li><a href="colaboradores.html">Colaboradores</a></li>
+                <li><a href="direitos.html">Direitos reservados</a></li>
+            </ul>
+        </article>
+        <article>
+            <img src="/home/aluno/Imagens/1j+ojl1FOMkX9WypfBe43D6kiPCEpBZPnx...IwXs1M3EMoAJtlScpgfVs9...8+"
+                alt="logoTipo">
+        </article>
+    </footer>
 </body>
+
 </html>
