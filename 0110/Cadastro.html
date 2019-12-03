@@ -24,29 +24,33 @@
         </nav>
         <br>
         <fieldset>
-            <h2>Cadastro:</h2>
-            <label>Nome:<br />
-                <input type="text" name="Nome" /></label><br />
+            <h2>Cadastro</h2>
+            <form action="" method="POST">
+                    <p> <label> Nome do Curso:<br />
+                        <input type="text" name="Nome" /></label><br /></p>
+        
+                    <p> <label>Descrição:<br />
+                        <textarea name="descrição" cols="30" rows="8"></textarea> <br /></p>
+        
+                    <p> <label>Treinadores:<br />
+                        <input type="text" name="Treinadores" /></label><br /></p> 
+        
+                    <p> <label>Data de Início:<br />
+                        <input type="date" name="Data de Início" /></label><br /></p> 
+        
+                    <p> <label>Data de Término:<br />
+                        <input type="date" name="Data de Término"/></label><br /></p> 
 
-            <label>Descrição:<br />
-                <input type="text" name="Descrição" /></label><br />
+                    <p> <label>Endereço:<br />
+                        <input type="text" name="Endereço" size="30"/></label><br /></p>
 
-            <label>Treinadores:<br />
-                <input type="text" name="Treinadores" /></label><br />
+                    <p> <label>Contato:<br />
+                        <input type="tel" name="Contato" /></label><br /></p>
 
-            <label>Data de Início:<br />
-                <input type="text" name="Data de Início" /></label><br />
-
-            <label>Data de Término:<br />
-                <input type="text" name="Data de Término" /></label><br />
-            <label>Endereço:<br />
-                <input type="text" name="Endereço" /></label><br />
-            <label>Contato:<br />
-                <input type="text" name="Contato" /></label><br />
-            <label>E-mail:<br />
-                <input type="text" name="email" /></label><br />
-            <p><a href="" target="_blank">Mais informações</a></p>
-    
+                    <p> <label>E-mail:<br />
+                        <input type="email" name="email" /></label><br /></p>
+                    <p><a href="" target="_blank">Mais informações</a></p>
+            </form>
 
             <form>
                 <button type="submit">Cadastrar</button>
