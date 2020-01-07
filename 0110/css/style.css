@@ -35,7 +35,19 @@
             color: blue;
             text-decoration: underline;
         }
+        a:link { /* Sem sublinhado no link*/
+            text-decoration:none;
+            }
+        a:visited { /* Sem sublinhado no link*/
+            text-decoration:none;
+            }
 
+        .logopadrao a{
+            font-family: 'Arial', Helvetica, sans-serif;
+            font-size: 26px;
+            color: #fff
+        }
+        
         .menu{ /* Menu superior*/
             margin-left: -9px;
             margin-right: -9px;
