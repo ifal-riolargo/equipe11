@@ -1,6 +1,10 @@
-        /* ESTRUTURA DO CORPO */
+        /* 
+            ESTRUTURA DO CORPO
+            ELEMENTOS PRIMÁRIOS
+        */
+
         h1 {
-            color: #000;
+            color: #000000;
             font-family: 'Verdana', sans-serif;
             font-size: 50px;
         }
@@ -32,8 +36,7 @@
             text-decoration: underline;
         }
 
-        /* PARA O MENU */
-        .menu{
+        .menu{ /* Menu superior*/
             margin-left: -9px;
             margin-right: -9px;
             margin-top: -9px;
@@ -44,8 +47,9 @@
             border-bottom-style: solid;
             border-bottom-color: #3399ff;
         }
+
         .menu ul {
-            font-family: 'Verdana', sans-serif;
+            font-family: 'Arial', sans-serif;
             list-style-type: none;
             margin: 0;
             padding: 1000;
@@ -53,11 +57,11 @@
             background-color: #444;
            
         }
+
         .menu li.link {
-            float: left;
-        
-            
+            float: left; 
         }
+
        .menu .ins a{
            
            font-size: 17px;
