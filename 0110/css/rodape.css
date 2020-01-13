@@ -1,0 +1,47 @@
+
+.rodape {
+    font-family: 'Arial', Helvetica, sans-serif;
+    background-color: #dc143c;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-bottom: -8px;
+    border-top-style: solid;
+    border-top-color:#dc143c;
+    border-bottom-style: solid;
+    border-bottom-color: #dc143c;
+    padding: 10px 20px 60px 30px;
+}
+
+.rodape ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.rodape a{
+    font-family: 'Arial', Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.rodape p{
+    text-align: center;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.rodape div.items {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+.rodape div.copyright {
+}
+
+.rodape div a {
+    margin-right: 20px;
+}

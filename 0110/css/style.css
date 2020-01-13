@@ -1,37 +1,32 @@
-        /* 
-            ESTRUTURA DO CORPO
-            ELEMENTOS PRIMÁRIOS
-        */
+h1 {
+    color: #000000;
+    font-family: 'Verdana', sans-serif;
+    font-size: 50px;
+}
+body {
+    background: white;
+    font-family: 'Raleway', sans-serif;
+}
 
-        h1 {
-            color: #000000;
-            font-family: 'Verdana', sans-serif;
-            font-size: 50px;
-        }
-        body {
-            background: white;
-            font-family: 'Raleway', sans-serif;
-        }
-
-        hr {
-            height: 2px;
-            border-width: 0;
-            color: #444;
-            background-color: #444;
-            width: 80%;
-            text-align: left;
-            margin-left: 0;
-        }
-         header {
-            background: #fff;
-            padding-top: 10px;
-        }
+hr {
+    height: 2px;
+    border-width: 0;
+    color: #444;
+    background-color: #444;
+    width: 80%;
+    text-align: left;
+    margin-left: 0;
+}
+header {
+    background: #fff;
+    padding-top: 10px;
+}
        
-        a{ 
-            color: #000;
-            text-decoration: none;
-        }
-        a:hover{
+a{ 
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
             color: blue;
             text-decoration: underline;
         }
@@ -47,11 +42,6 @@
             font-size: 26px;
             color: #fff
         }
-
-        .rodape p{
-            font-family: 'Arial', Helvetica, sans-serif;
-            font-size: 10px;
-        }
         
         .menu{ /* Menu superior*/
             margin-left: -9px;
@@ -59,10 +49,10 @@
             margin-top: -9px;
             border-top-width: 10px;
             border-top-style: solid;
-            border-top-color: #3399ff;
+            border-top-color: #dc143c;
             border-bottom-width: 10px; 
             border-bottom-style: solid;
-            border-bottom-color: #3399ff;
+            border-bottom-color: #dc143c;
         }
 
         .menu ul {
@@ -96,7 +86,7 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color:#3399ff;
+            background-color:#dc143c;
         }
 
        
@@ -145,42 +135,6 @@
             margin-top: -20px;
 
         }
-            /* RODAPÉ*/
-        .rodape {
-            background-color: #3399ff;
-            color: #fff;
-            display: flex;
-            justify-content: space-around;
-            margin-left: -9px;
-            margin-right: -9px;
-            border-top-width: 10px;
-            border-top-style: solid;
-            border-top-color: #3399ff;
-            border-bottom-width: 10px; 
-            border-bottom-style: solid;
-            border-bottom-color: #3399ff;
-        }
-
-        .rodape dl * {
-            margin-bottom: 4px;
-        }
-
-        .rodape ul {
-            list-style-type: none;
-        }
-
-        .rodape ul li a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        .rodape ul li a:hover {
-            color: #444;
-        }
-
-        .rodape ul li {
-            margin-bottom: 4px;
-        }
         /* Para Login*/
         .box{
             
@@ -195,7 +149,7 @@
         display: block;
         margin: 20px auto;
         text-align: center;
-        border: 2px solid #3399ff;
+        border: 2px solid #dc143;
         padding: 14px 10px;
         width: 200px;
         outline: none;
