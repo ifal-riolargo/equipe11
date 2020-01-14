@@ -5,7 +5,9 @@ h1 {
 }
 body {
     background: white;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
 hr {
@@ -21,6 +23,7 @@ header {
     background: #fff;
     padding-top: 10px;
 }
+
        
 a{ 
     color: #000;
@@ -41,68 +44,8 @@ a:hover{
             font-family: 'Arial', Helvetica, sans-serif;
             font-size: 26px;
             color: #fff
-        }
-        
-        .menu{ /* Menu superior*/
-            margin-left: -9px;
-            margin-right: -9px;
-            margin-top: -9px;
-            border-top-width: 10px;
-            border-top-style: solid;
-            border-top-color: #dc143c;
-            border-bottom-width: 10px; 
-            border-bottom-style: solid;
-            border-bottom-color: #dc143c;
-        }
+        }   
 
-        .menu ul {
-            font-family: 'Arial', sans-serif;
-            list-style-type: none;
-            margin: 0;
-            padding: 1000;
-            overflow: hidden;
-            background-color: #444;
-           
-        }
-
-        .menu li.link {
-            float: left; 
-        }
-
-       .menu .ins a{
-           
-           font-size: 17px;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px;
-            text-decoration: none;
-            float:right;
-       }
-    
-        .menu ul {
-            font-family: 'Arial', sans-serif;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color:#dc143c;
-        }
-
-       
-
-        .menu .link a {
-            font-size: 17px;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px;
-            text-decoration: none;
-        }
-
-        .menu .link a:hover {
-            background-color: #444;
-        }
         
       
         .corpo {
