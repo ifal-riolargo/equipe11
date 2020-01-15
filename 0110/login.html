@@ -6,28 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
-    <link rel="stylesheet" href="css\style.css">
-    <link rel="stylesheet" href="css\rodape.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu_rodape.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="icon" href="Imagens/icone11.ico" type="image/x-icon"/>
 </head>
 
 <body>
+    <div class="menu">
+        <ul style="display: flex;">
+            <li class="link"><a href="index.html">Home</a></li>
+            <li class="link"><a href="cursos.html">Cursos</a></li>
+            <li class="link"><a href="rss.html">RSS</a></li>
+            <li class="link"><a href="oque.html">Sobre</a></li>
+            <li class="link-image"><a href="rss.html"><img src="Imagens/rss.png" alt="" width="20" height="20"></a></li>
 
-    <section>
-        <nav class="menu">
-            <ul>
-                <li class="link"><a href="index.html">Home</a></li>
-                <li class="link"><a href="login.html">Login</a></li>
-                <li class="link"><a href="cursos.html">Cursos</a></li>
-                <li class="link"><a href="rss.html">RSS</a></li>
-                <li class="link"><a href="oque.html">Sobre</a></li>
-                <ul class="ins">
-                    <li><a href="cadastroUser.html">Inscrever-se</a></li>
-                </ul>
+            <ul class="lado" style="position: absolute; right: 0">
+                <li><a href="cadastroUser.html">Inscrever-se</a></li>
+                <li><a href="login.html">Login</a></li>
             </ul>
-        </nav>
-        <br>
-        <fieldset>
+        </ul>
+    </div>
             <section class="corpo">
                 <form class="box" action="index.html" method="post">
                     <h1>Login</h1>
@@ -47,8 +46,6 @@
 
             </section>
             <br> <br> <br> <br> <br> <br> <br>
-
-    </fieldset>
 <br>
 <footer class="rodape"> 
     <div class="items">
