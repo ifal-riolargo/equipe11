@@ -5,22 +5,14 @@
     margin: 0;
     padding: 20px 0px 20px 0px;
 
-    /* padding: 13px 0px 13px 0px;
-    margin-left: -8px; 
-    background-color: #dc143c;
-    position: absolute;
-    top: 0px; 
-    width: 100%;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 17px; */
 }
 
-.menu .ins a{   
+.menu .lado a{   
     font-family: 'Ubuntu', sans-serif;
      display: ruby-base;
      color: white ;
      text-align: center;
-     padding: 14px;
+     padding: 0 10px;
      text-decoration: none;
      float:right;
 }
