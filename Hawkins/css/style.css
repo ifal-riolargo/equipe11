@@ -1,0 +1,182 @@
+body {
+    background: #e6ecf0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.login fieldset{
+  background-color: #e6ecf0;
+  border: 1px solid rgb(204, 201, 201);
+  width:600px;
+  height:450px;
+  position: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: #444;
+    background-color: #444;
+    width: 80%;
+    text-align: left;
+    margin-left: 0;
+}
+header {
+    background: #fff;
+    padding-top: 10px;
+}
+
+       
+a{ 
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+        a:link { /* Sem sublinhado no link*/
+            text-decoration:none;
+            }
+        a:visited { /* Sem sublinhado no link*/
+            text-decoration:none;
+            }
+
+        .logopadrao a{
+            font-family: 'Arial', Helvetica, sans-serif;
+            font-size: 26px;
+            color: #fff
+        }   
+        .corpo {
+            width: 960px;
+            margin: auto;
+        }
+
+        .conteudo {
+            display: table;
+        }
+
+        .imagem {
+            display: table-cell;
+            float: right;
+            margin-left: 90px;
+        }
+
+        .texto {
+            display: table-cell;
+            float: left;
+            width: 300px;
+
+        }
+
+        .tabela {
+            display: table-cell;
+            float: right;
+            margin-left: 90px;
+            width: 400px;
+            margin-top: -20px;
+        }
+
+        .box input[type = "text"],.box input[type = "password"]{
+        border: 2px solid gray;
+        border-radius: 8px; 
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: black /* Altera a cor do cursor do mouse na digitação */;
+        }
+
+        /* Alterar a cor do input do login quando clicado*/
+        .box input:hover[type = "text"],.box input:hover[type = "password"]{
+            border: 2px solid #dc143c; 
+        }
+
+        /* ############## BOTÃO ENTRAR ###################################*/
+element.style {
+}
+.EdgeButton--primary {
+    background-color: #dc143c;
+    border: 1px solid #dc143c;
+    color: #fff;
+}
+.EdgeButton, .EdgeButton:visited {
+    border-radius: 100px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 10px 50px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+button {
+    border: 0;
+}
+button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    transition: box-shadow .15s ease-in-out;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+user agent stylesheet
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}

@@ -4,7 +4,8 @@
     list-style-type: none;
     margin: 0;
     padding: 20px 0px 20px 0px;
-
+    font-size: 20px;
+    align-items: center;
 }
 
 .menu .lado a{   
@@ -22,13 +23,19 @@
     align-items: center;
 }
 
+.menu .logo{
+    padding-left: 28%;
+    display: flex;
+    align-items: center;
+}
+
 .menu li.link {
     float: left; 
 }
 
 .menu .link a {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     display: block;
     color: white;
     text-align: center;
@@ -40,7 +47,7 @@
     background-color: #444;
 }
 
-
+/*############### RODAPE ######################## */
 
 .rodape {
     font-family: 'Arial', Helvetica, sans-serif;
