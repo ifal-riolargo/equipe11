@@ -1,3 +1,5 @@
+@import url("menu_rodape.css");
+
 body {
     background: #e6ecf0;
     font-family: 'Ubuntu', sans-serif;
@@ -10,12 +12,20 @@ body {
   height:450px;
   position: center;
   justify-content: center;
-  justify-items: center;
-  justify-self: center;
   align-content: center;
   align-items: center;
   position: relative;
   text-align: center;
+}
+.padrao fieldset{
+    background-color: #e6ecf0;
+    border: 1px solid rgb(204, 201, 201);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+
 }
 
 hr {
@@ -31,8 +41,7 @@ header {
     background: #fff;
     padding-top: 10px;
 }
-
-       
+     
 a{ 
     color: #000;
     text-decoration: none;
@@ -75,14 +84,6 @@ a:hover{
 
         }
 
-        .tabela {
-            display: table-cell;
-            float: right;
-            margin-left: 90px;
-            width: 400px;
-            margin-top: -20px;
-        }
-
         .box input[type = "text"],.box input[type = "password"]{
         border: 2px solid gray;
         border-radius: 8px; 
@@ -95,6 +96,17 @@ a:hover{
         outline: none;
         color: black /* Altera a cor do cursor do mouse na digitação */;
         }
+        .padraoInput input, textarea{
+            border: 2px solid gray;
+            border-radius: 8px; 
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            width: 200px;
+            outline: none;
+            color: black /* Altera a cor do cursor do mouse na digitação */;
+            }
 
         /* Alterar a cor do input do login quando clicado*/
         .box input:hover[type = "text"],.box input:hover[type = "password"]{
@@ -179,4 +191,40 @@ html {
 user agent stylesheet
 html {
     color: -internal-root-color;
+}
+
+.novoAlinhamento {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.novoAlinhamento input[type = "text"],.novoAlinhamento input[type = "password"]{
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 10px 0; 
+    margin: 10px 0;
+    color: black /* Altera a cor do cursor do mouse na digitação; */
+}
+
+.novoAlinhamento input {
+    background: none;
+    width: 100%;
+}
+
+.novoAlinhamento button[type = "submit"] {
+    color: #fff;
+    background-color: #dc143c;
+    padding: 10px;
+    border-radius: 30px;
+    width: 30%;
+    transition: all;
+}
+
+.novoAlinhamento button[type = "submit"]:hover {
+    background: #ff143c;
 }
