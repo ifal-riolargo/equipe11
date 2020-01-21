@@ -17,16 +17,6 @@ body {
   position: relative;
   text-align: center;
 }
-.padrao fieldset{
-    background-color: #e6ecf0;
-    border: 1px solid rgb(204, 201, 201);
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    position: relative;
-    text-align: center;
-
-}
 
 hr {
     height: 2px;

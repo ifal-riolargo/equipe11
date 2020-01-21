@@ -16,55 +16,53 @@
     <div class="menu">
         <ul style="display: flex;">
             <li class="link"><a href="index.html">Página inicial</a></li>
-            <li class="link"><a href="cursos.html">Cadastrar Curso</a></li>
+            <li class="link"><a href="cadastro_anuncio.html">Cadastrar Anúncio</a></li>
             <li class="logo"><a href="index.html"><img src="../Imagens/logo_hawkins.png" alt="logo" widht="34" height="30"></a></li>
             <ul class="lado" style="position: absolute; right: 0">
-                <li><a href="cadastroUser.html">Inscrever-se</a></li>
-                <li><a href="login.html">Entrar</a></li>
+                
+                <li><a href="../login.html">Sair</a></li>
             </ul>
         </ul>
     </div>
-        <fieldset>
-            <h2>Cadastro</h2>
-            <form action="" method="POST">
-                    <p> <label> Nome do Curso:<br />
-                        <input type="text" name="Nome" /></label><br /></p>
+    <div class="padrao">
+        <h2 style="text-align: center">Cadastrar Curso</h2>
+        <form action="" method="POST">
+            <div class="novoAlinhamento">
+            <!-- <fieldset class="padrao" style="width: 50%; margin: 0px auto;">
+                <div class="padraoInput"> -->
+                    <label> Nome do Curso:</label>
+                    <input type="text" name="Nome" />
         
-                    <p> <label>Descrição:<br />
-                        <textarea name="descrição" cols="30" rows="8"></textarea> <br /></p>
-        
-                    <p> <label>Treinadores:<br />
-                        <input type="text" name="Treinadores" /></label><br /></p> 
-        
-                    <p> <label>Data de Início:<br />
-                        <input type="date" name="Data de Início" /></label><br /></p> 
-        
-                    <p> <label>Data de Término:<br />
-                        <input type="date" name="Data de Término"/></label><br /></p> 
+                    <label>Descrição:</label>
+                    <textarea name="descrição" style="width: 100%;"></textarea>
+                    
+                    <label style="margin-top: 10px;">Duração:</label>
+                    <input type="text" name="duracao" />
 
-                    <p> <label>Endereço:<br />
-                        <input type="text" name="Endereço" size="30"/></label><br /></p>
+                    <label>Contato:</label>
+                    <input type="text" name="Contato" />
 
-                    <p> <label>Contato:<br />
-                        <input type="tel" name="Contato" /></label><br /></p>
+                    <label>Treinadores:</label>
+                    <input type="text" name="treinadores" />
 
-                    <p> <label>E-mail:<br />
-                        <input type="email" name="email" /></label><br /></p>
-                    <p><a href="" target="_blank">Mais informações</a></p>
-            </form>
+                    <label>Email:</label>
+                    <input type="text" name="email" size="30"/></label>
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                        <button type="submit">Cadastrar</button>
+                    </div>
+                </div>
+                
+         
+        </form>
 
-            <form>
-                <button type="cadastro">Cadastrar</button>  <button type="atualizar">Atualizar</button>
-            </form>
-
-        </fieldset>
-        <br>
+    </div>
+        <br> <br>
         <footer class="rodape" style="position: relative"> 
                 <div class="items">
-                    <a href="oque.html" target="_blank"><b>Sobre a Hawkins</b></a>
+                    <a href="oquef.html" target="_blank"><b>Sobre a Hawkins</b></a>
                     <a href="anuncio.html" target="_blank"><b>Anuncie conosco</b></a>
                     <a href="mailto:contato@hawnkins.com.br" target="_blank"><b>Contato</b></a>
-                    <a href="localização.html"><b>Localização</b></a>
+                    <a href="https://www.google.com/maps/place/Toronto,+ON,+Canad%C3%A1/@43.717899,-79.6582408,10z/data=!3m1!4b1!4m5!3m4!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843" target="_blank"><b>Localização</b></a>
                     <a href="termos_servico.html"><b>Termos de Serviço</b></a>
                     <a href="politica_privacidade"><b>Política de privacidade</b></a> <br>
                 </div>
