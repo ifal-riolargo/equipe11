@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <section>
+    
         <div class="menu">
             <ul style="display: flex;">
                 <li class="link"><a href="index.html">Página inicial</a></li>
@@ -29,44 +29,46 @@
             </ul>
         </div>
         <br>
-        <fieldset>
-            <h2>Cadastro</h2>
+        
+            <div class="padrao">
+                <h2 style="text-align: center">Cadastro</h2>
             <form action="" method="POST">
-                    <p> <label> Nome:<br />
-                        <input type="text" name="Nome" /></label><br /></p>
+                <div class="novoAlinhamento">
+                     <label> Nome:<br />
+                        <input type="text" name="Nome" /></label>
         
-                    <p> <label> CPF:<br />
-                        <input name="cpf" ><br /> </p>
+                    <label> CPF:<br />
+                        <input type="text" type="date" >
                     
-                        <p> <label>Data de Nascimento:<br />
-                        <input type="date" name="Data de nascimento" /></label><br /></p> 
+                        <label>Data de Nascimento:<br />
+                        <input type="text" type="date" name="Data de nascimento" /></label><br />
 
-                        <p> <label>Contato:<br />
-                            <input type="tel" name="Contato" /></label><br /></p> 
+                        <label>Contato:<br />
+                            <input type="text" type="tel" name="email" size="30"/></label><br />
+
+                     <label>Email:<br />
+                        <input type="text" name="email" size="30"/></label><br />
+
+                     <label>Senha:<br />
+                        <input type="password" name="Contato" /></label><br />
+
+                     <label>Confirmar Senha:<br />
+                        <input type="password" name="senha" /></label><br />
+                    <a href="" target="_blank">Esqueceu a senha?</a>
+                </div>
+            </form>
+            </div>
+
+
 
         
 
-                    <p> <label>Email:<br />
-                        <input type="text" name="email" size="30"/></label><br /></p>
-
-                    <p> <label>Senha:<br />
-                        <input type="password" name="Contato" /></label><br /></p>
-
-                    <p> <label>Confirmar Senha:<br />
-                        <input type="password" name="senha" /></label><br /></p>
-                    <p><a href="" target="_blank">Esqueceu a senha?</a></p>
-            </form>
-
-            <form>
-                <button type="cadastro">Cadastrar</button>
-            </form>
-
-        </fieldset>
         <br>
-        <footer class="rodape"> 
+        <br>
+        <footer class="rodape" style="position: relative">
             <div class="items">
-                <a href="oque.html" target="_blank"><b>Sobre a Hawkins</b></a>
-                <a href="anuncio.html" target="_blank"><b>Anuncie conosco</b></a>
+                <a href="oque.html"><b>Sobre a Hawkins</b></a>
+                <a href="anuncio.html"><b>Anuncie conosco</b></a>
                 <a href="mailto:contato@hawnkins.com.br" target="_blank"><b>Contato</b></a>
                 <a href="https://www.google.com/maps/place/Toronto,+ON,+Canad%C3%A1/@43.717899,-79.6582408,10z/data=!3m1!4b1!4m5!3m4!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843" target="_blank"><b>Localização</b></a>
                 <a href="termos_servico.html"><b>Termos de Serviço</b></a>

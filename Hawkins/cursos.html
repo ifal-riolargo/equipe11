@@ -44,10 +44,10 @@
                 aqui foram elaborados e revisados por nossa equipe de professores e especialistas seguindo padrões
                 metodológicos amplamente utilizados nas principais escolas e universidades do país.</p>
             <div style='text-align:center'>
-                <div class="search">
-                    <form>
-                        <input id="busca" type="search" name="search" placeholder="Ex: Informática Básica" list="historico_de_buscas">
-                        <button type="submit">Buscar</button>
+                <div id='busca'>
+                    <form action="/search" class="search" method="get">
+                        <input id="txtbusca" name="q" type="text" value="" placeholder="Ex.: Engenharia de Software" list="historico_de_buscas" />
+                        <input id="btnBusca" type="submit" value="Buscar"/>
                         <datalist id="historico_de_buscas">
                             <option value="Informatica"></option>
                             <option value="JavaScript"></option>
@@ -102,8 +102,8 @@
     <br>
     <footer class="rodape"> 
         <div class="items">
-            <a href="oque.html" target="_blank"><b>Sobre a Hawkins</b></a>
-            <a href="anuncio.html" target="_blank"><b>Anuncie conosco</b></a>
+            <a href="oque.html"><b>Sobre a Hawkins</b></a>
+            <a href="anuncio.html"><b>Anuncie conosco</b></a>
             <a href="mailto:contato@hawnkins.com.br" target="_blank"><b>Contato</b></a>
             <a href="https://www.google.com/maps/place/Toronto,+ON,+Canad%C3%A1/@43.717899,-79.6582408,10z/data=!3m1!4b1!4m5!3m4!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843" target="_blank"><b>Localização</b></a>
             <a href="termos_servico.html"><b>Termos de Serviço</b></a>

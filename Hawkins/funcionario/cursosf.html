@@ -41,13 +41,14 @@
                 aqui foram elaborados e revisados por nossa equipe de professores e especialistas seguindo padrões
                 metodológicos amplamente utilizados nas principais escolas e universidades do país.</p>
             <div style='text-align:center'>
-                <div class="search">
-                    <form>
-                        <input id="busca" type="search" name="search" placeholder="Ex.: Curso"
-                            list="historico_de_buscas">
-                        <button type="submit">Buscar</button>
+                <div id='busca'>
+                    <form action="/search" class="search" method="get">
+                        <input id="txtbusca" name="q" type="text" value="" placeholder="Ex.: Engenharia de Software" />
+                        <input id="btnBusca" type="submit" value="Buscar"/>
                     </form>
-                </div>
+                    </div>
+
+                
             </div>
             <br>
             <h2>Próximos Cursos e Eventos:</h2>
