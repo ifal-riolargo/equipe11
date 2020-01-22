@@ -3,34 +3,9 @@
     background-color:#dc143c;
     list-style-type: none;
     margin: 0;
-    padding: 20px 0px 20px 0px;
+    padding: 18px;
     font-size: 20px;
     align-items: center;
-}
-
-.menu .lado a{   
-    font-family: 'Ubuntu', sans-serif;
-     display: ruby-base;
-     color: white ;
-     text-align: center;
-     padding: 0 10px;
-     text-decoration: none;
-     float:right;
-}
-
-.menu .link-image {
-    display: flex;
-    align-items: center;
-}
-
-.menu .logo{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-.menu li.link {
-    float: left; 
 }
 
 .menu .link a {
@@ -43,23 +18,42 @@
     text-decoration: none;
 }
 
+.menu .lado a{   
+    font-family: 'Ubuntu', sans-serif;
+     display: ruby-base;
+     color: white ;
+     text-align: center;
+     padding: 0 14px;
+     text-decoration: none;
+     float:right;
+}
+
+.menu .link-image {
+    display: flex;
+    align-items: center;
+}
+
+.menu .logo{
+    width: 66%;
+    display: flex;
+    justify-content: center;
+}
+
 /*############### RODAPE ######################## */
 
 .rodape {
-    font-family: 'Arial', Helvetica, sans-serif;
+    font-family: 'Arial', Helvetica, sans-serif;   
     background-color: #dc143c;
     color: #fff;
     position: absolute;
     bottom: 0px;
     width: 100%;
-    margin-left: -9px;
-    margin-right: -9px;
-    margin-bottom: -8px;
-    border-top-style: solid;
-    border-top-color:#dc143c;
-    border-bottom-style: solid;
-    border-bottom-color: #dc143c;
-    padding: 20px 9px 20px 0px;
+    padding: 17px 0px;
+    position: absolute;
+}
+
+#longpages{
+    position: relative; 
 }
 
 .rodape ul li a {
@@ -73,6 +67,10 @@
     color: #fff;
     font-size: 14px;
 }
+
+.rodape a:hover{
+    color: white;
+}
 .rodape p{
     text-align: center;
     font-family: 'Arial', Helvetica, sans-serif;
@@ -83,9 +81,6 @@
     display: flex;
     align-self: flex-end;
     justify-content: center;
-}
-
-.rodape div.copyright {
 }
 
 .rodape div a {

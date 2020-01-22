@@ -15,57 +15,80 @@
 </head>
 
 <body>
-    
-        <div class="menu">
-            <ul style="display: flex;">
-                <li class="link"><a href="index.html">Página inicial</a></li>
-                <li class="link"><a href="cursos.html">Cursos</a></li>
-                <li class="link-image"><a href="rss.html"><img src="Imagens/rss.png" alt="" width="20" height="20"></a></li>
-                <li class="logo"><a href="index.html"><img src="Imagens/logo_hawkins.png" alt="logo" widht="34" height="30"></a></li>
-                <ul class="lado" style="position: absolute; right: 0">
-                    <li><a href="cadastro_user.html">Inscrever-se</a></li>
-                    <li><a href="login.html">Entrar</a></li>
-                </ul>
+    <div class="menu">
+        <ul style="display: flex;">
+            <li class="link"><a href="index.html">Página inicial</a></li>
+            <li class="link"><a href="cursos.html">Cursos</a></li>
+            <li class="link-image"><a href="rss.html"><img src="Imagens/rss.png" alt="" width="20" height="20"></a></li>
+            <li class="logo"><a href="index.html"><img src="Imagens/logo_hawkins.png" alt="logo" widht="34" height="30"></a></li>
+            <ul class="lado" style="position: absolute; right: 0">
+                <li><a href="cadastro_user.html">Inscrever-se</a></li>
+                <li><a href="login.html">Entrar</a></li>
             </ul>
-        </div>
-        <br>
+        </ul>
+    </div><br>
+    <div class="padrao">
+        <h2 style="text-align: center">Cadastro</h2>
+
+        <form action="" method="POST">
+            <div class="novoAlinhamento">
+                <label> Nome:<br>
+                <input type="text" name="nome" required></label>
         
-            <div class="padrao">
-                <h2 style="text-align: center">Cadastro</h2>
-            <form action="" method="POST">
-                <div class="novoAlinhamento">
-                     <label> Nome:<br />
-                        <input type="text" name="Nome" /></label>
-        
-                    <label> CPF:<br />
-                        <input type="text" type="date" >
+                <label> CPF:<br>
+                <input type="text" name="cpf" required>
                     
-                        <label>Data de Nascimento:<br />
-                        <input type="text" type="date" name="Data de nascimento" /></label><br />
+                <label>Data de Nascimento:<br>
+                <input type="date" name="data_nascimento" required></label>
+                
+                <label>Telefone:<br>
+                <input type="text" name="telefone" id="telefone" size="20" maxlength="15" onkeypress="mascara(this)"></label><br>
+    
+                <script type="text/javascript">
+                    function mascara(telefone){ 
+                        if(telefone.value.length == 0)
+                            telefone.value = '(' + telefone.value; //quando começamos a digitar, irá inserir um parênteses no começo do campo.
+                        if(telefone.value.length == 3)
+                            telefone.value = telefone.value + ') '; //quando o campo já tiver 3 caracteres (um parênteses e 2 números) irá inserir mais um parênteses.
+             
+                        if(telefone.value.length == 10)
+                            telefone.value = telefone.value + '-'; //quando o campo já tiver 9 caracteres, vai inserir um tracinho
+            }
+                </script>
 
-                        <label>Contato:<br />
-                            <input type="text" type="tel" name="email" size="30"/></label><br />
+                <label>Email:<br>
+                <input type="text" name="email" size="30" required></label><br>
 
-                     <label>Email:<br />
-                        <input type="text" name="email" size="30"/></label><br />
+                <label>Senha:<br>
+                <input type="password" name="senha" id="senha" required></label><br>
 
-                     <label>Senha:<br />
-                        <input type="password" name="Contato" /></label><br />
+                <label>Confirmar Senha:<br />
+                <input type="password" name="senha" id="confirmar_senha" required></label><br>
+                
+                <script>
+                    var password = document.getElementById("senha"), confirm_password = document.getElementById("confirmar_senha");
+                    function validatePassword(){
+                    if(password.value != confirm_password.value) {
+                        confirm_password.setCustomValidity("As senhas não coincidem!");
+                    } 
+                    else {
+                        confirm_password.setCustomValidity('');
+                        }
+                    }
+                    password.onchange = validatePassword;
+                    confirm_password.onkeyup = validatePassword;</script>
 
-                     <label>Confirmar Senha:<br />
-                        <input type="password" name="senha" /></label><br />
-                    <a href="" target="_blank">Esqueceu a senha?</a>
+                    <a href="em_breve.html" target="_blank">Esqueceu a senha?</a>
+
+                    <div class="alinhar_botao">
+                        <button type="submit">Cadastrar</button>
+                    </div>
                 </div>
             </form>
             </div>
-
-
-
-        
-
         <br>
         <br>
-        <footer class="rodape" style="position: relative">
+        <footer class="rodape" id="longpages">
             <div class="items">
                 <a href="oque.html"><b>Sobre a Hawkins</b></a>
                 <a href="anuncio.html"><b>Anuncie conosco</b></a>
@@ -74,11 +97,7 @@
                 <a href="termos_servico.html"><b>Termos de Serviço</b></a>
                 <a href="politica_privacidade"><b>Política de privacidade</b></a> <br>
             </div>
-        
-            <div class="copyright">
                 <p>Todos os direitos reservados &copy; 2020 Hawnkins, Inc.</p>
-            </div>
             </footer>
 </body>
-
 </html>

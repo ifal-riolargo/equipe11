@@ -193,7 +193,7 @@ html {
     border: 2px solid gray;
 }
 
-.novoAlinhamento input[type = "text"],.novoAlinhamento input[type = "password"]{
+.novoAlinhamento input[type = "text"],.novoAlinhamento input[type = "password"], .novoAlinhamento input[type = "date"], .novoAlinhamento input[type="tel"]{
     border: 2px solid gray;
     border-radius: 8px;
     padding: 10px 0; 
@@ -206,6 +206,7 @@ html {
     width: 100%;
 }
 
+
 .novoAlinhamento button[type = "submit"] {
     color: #fff;
     background-color: #dc143c;
@@ -217,6 +218,10 @@ html {
 
 .novoAlinhamento button[type = "submit"]:hover {
     background: #ff143c;
+}
+
+.alinhar_botao{
+    text-align: center;
 }
 
 #busca {
