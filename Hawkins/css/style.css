@@ -275,6 +275,11 @@ margin-right: auto
     width: 33.3%;
     float: left;
     position: relative;
-color: #000;
+  
  
+}
+.linke
+{
+    text-decoration: none;
+    color: #222
 }
