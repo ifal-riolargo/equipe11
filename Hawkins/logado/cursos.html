@@ -8,48 +8,57 @@
     <title>Cursos</title>
     <link rel="shortcut icon" href="../Imagens/h.png" type="image/x-png"/>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/menu_rodape.css">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="icon" href="../Imagens/icone11.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-</head>
+    </head>
 
 <body>
+
     <div class="menu">
         <ul style="display: flex;">
-            <li class="link"><a href="indexf.html">Página inicial</a></li>
-            <li class="link"><a href="cursosf.html">Cursos</a></li>
-            <li class="link-image"><a href="rssf.html"><img src="../Imagens/rss.png" alt="" width="20" height="20"></a>
-            </li>
-            <li class="logo"><a href="indexf.html"><img src="../Imagens/logo_hawkins.png" alt="logo" widht="34"
+            <li class="link"><a href="index.html">Página inicial</a></li>
+            <li class="link"><a href="cursos.html">Cursos</a></li>
+            <li class="link-image"><a href="rss.html"><img src="../Imagens/rss.png" alt="" width="20" height="20"></a></li>
+            <li class="logo"><a href="index.html"><img src="../Imagens/logo_hawkins.png" alt="logo" widht="34"
                         height="30"></a></li>
             <ul class="lado" style="position: absolute; right: 0">
-                <li><a href="perfilf.html">Perfil</a></li>
-                <li><a href="../login.html">Sair</a></li>
-        </ul>
+                <li><a href="perfil.html">Perfil</a></li>
+                    <li><a href="../login.html">Sair</a></li>
             </ul>
         </ul>
     </div>
     <main>
+
         <section class="corpo">
             <div style='text-align:center'>
                 <h1>
 
-                    Cursos Disponíveis
+                    Buscar por Cursos Disponíveis
 
                 </h1>
             </div>
-           
+
             <div style='text-align:center'>
                 <div id='busca'>
                     <form action="/search" class="search" method="get">
-                        <input id="txtbusca" name="q" type="text" value="" placeholder="Ex.: Engenharia de Software" />
-                        <input id="btnBusca" type="submit" value="Buscar" />
+                        <input id="txtbusca" name="q" type="text" value="" placeholder="Ex.: Engenharia de Software"
+                            list="historico_de_buscas" />
+                        <input id="btnBusca" type="submit"  value="Buscar" />
+                        <datalist id="historico_de_buscas">
+                            <option value="Apache Wicket"></option>
+                            <option value="Informatica"></option>
+                            <option value="JavaScript"></option>
+                            <option value="SQL - Banco de Dados"></option>
+                            <option value="Introdução HTML 5"></option>
+                            <option value="Introdução à Phyton"></option>
+                        </datalist>
                     </form>
                 </div>
-
-
             </div>
             <br>
             <h2>Próximos Cursos e Eventos:</h2>
@@ -61,60 +70,57 @@
                             <th scope="col">Cursos de Informática</th>
                             <th scope="col">Cursos de Programação</th>
                             <th scope="col">Eventos de Informações</th>
-                          
+                            
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
 
                             <td> Windows 10</td>
-                            <td>SQL</td>
+                            <td>Banco de Dados</td>
                             <td>Lógica de Programação[Live]</td>
-
+                           
                         </tr>
                         <tr>
 
                             <td>Digitação</td>
                             <td>Java na Prática</td>
                             <td>Lançamento Podcast</td>
-
+                            
                         </tr>
                         <tr>
 
                             <td>Excel Básico</td>
-                            <td>Introdução HTML 5</td>
+                            <td>CSS 3</td>
                             <td>Mercado de Trabalho[Live]</td>
-
+                            
                         </tr>
                         <tr>
 
                             <td>Informática Básica</td>
                             <td>Lógica de Programação</td>
                             <td>Ferramentas para Programadores[Palestra]</td>
-
+                            
                         </tr>
                         <tr>
 
                             <td>Técnico em Informática</td>
                             <td>Programação em Phyton</td>
                             <td>Trabalho no Exterior[Live]</td>
-
+                            
                         </tr>
 
                     </tbody>
                 </table>
                 <br>
-                <form>
-                    <button type="submit"><a class="linke" href="cadastro_curso.html">Cadastrar Curso</a></button>
-                </form>
 
         </section>
 
     </main>
-    <footer class="rodape" style="position: relative">
+    <footer class="rodape" id="longpages">
         <div class="items">
-            <a href="oquef.html" target="_blank"><b>Sobre a Hawkins</b></a>
-            <a href="cadastro_anuncio.html" target="_blank"><b>Anuncie conosco</b></a>
+            <a href="oque.html"><b>Sobre a Hawkins</b></a>
+            <a href="anuncio.html"><b>Anuncie conosco</b></a>
             <a href="mailto:contato@hawnkins.com.br" target="_blank"><b>Contato</b></a>
             <a href="https://www.google.com/maps/place/Toronto,+ON,+Canad%C3%A1/@43.717899,-79.6582408,10z/data=!3m1!4b1!4m5!3m4!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843"
                 target="_blank"><b>Localização</b></a>
