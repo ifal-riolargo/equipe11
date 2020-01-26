@@ -283,3 +283,9 @@ margin-right: auto
     text-decoration: none;
     color: #222
 }
+.pass{
+    background-color: #dc143c;
+}
+.pass td{
+    color:white;
+}
