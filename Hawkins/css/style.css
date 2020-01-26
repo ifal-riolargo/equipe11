@@ -37,7 +37,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-            color: blue;
+            color: white;
             text-decoration: underline;
         }
         a:link { /* Sem sublinhado no link*/
